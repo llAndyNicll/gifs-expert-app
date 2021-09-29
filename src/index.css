@@ -1,0 +1,69 @@
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 200;
+}
+
+body {
+    background-color: #202020;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    width: 32%;
+}
+
+img {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    border: 3px solid grey;
+}
+
+h2 {
+    color: honeydew;
+}
+
+p {
+    color: #c0c0c0;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    width: 100%;
+    font-size: 60px;
+    color: red;
+}
+
+h4 {
+    text-align: center;
+    color: blue;
+    width: 100%;
+    display: block;
+    font-size: 90px;
+}
